@@ -15,6 +15,7 @@ vector<int> init_pi(string s)
     }
     return pi;
 }
+
 // s是匹配主串、p是匹配模式串
 vector<int> _kmp(string s, string p, vector<int> pi)
 {

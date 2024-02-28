@@ -1,8 +1,8 @@
 #include<iostream>
 //辗转相除法求最大公约数
-#if 0
 int gcd(int a,int b)
 {
+    
     int t,max,min;
     if(a>b)
     {
@@ -20,7 +20,7 @@ int gcd(int a,int b)
         min=max%min;
         max=t;
     }
+
     return max;
 
 }
-#endif
